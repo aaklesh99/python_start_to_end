@@ -1,0 +1,11 @@
+mystr ="Hello I am Akki"
+# print(len(mystr))
+# print(mystr[0:16])
+print(mystr[0:len(mystr)])
+print(mystr[::-1])
+print(mystr.isalnum())
+print(mystr.endswith("Akki"))
+print(mystr.count("o"))
+print(mystr.capitalize())
+print(mystr.upper())
+print(mystr.replace("I am","this is" ))
