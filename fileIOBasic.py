@@ -42,10 +42,28 @@
 # f.close()
 
 #Read and write mode
-f=open("LPU.txt","r+")
-a=f.write("Lovely Professional University\n")
-print(a)
-print(f.read())
-f.write("Thanks")
+# f=open("LPU.txt","r+")
+# a=f.write("Lovely Professional University\n")
+# print(a)
+# print(f.read())
+# f.write("Thanks")
 
-f.close()
+# f=open("LPU.txt","r")
+# p=f.tell()
+# print(f.tell())
+# print(f.readline())
+# # print(f.tell())
+# print(f.readline())
+# # print(f.seek(20))
+# # print(f.tell())
+# # print(f.tell())
+# print(f.seek(p))
+# print(f.readline())
+#
+#
+#
+# f.close()
+
+with open("LPU.txt") as f:
+    a=f.readlines()
+    print(a)
