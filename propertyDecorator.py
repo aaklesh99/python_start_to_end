@@ -36,3 +36,5 @@ print(emp1.lname)
 
 del emp1.email
 print(emp1.email)
+emp1.email="akki.raj@gmail.com"
+print(emp1.email)
